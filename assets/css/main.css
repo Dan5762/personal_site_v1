@@ -153,6 +153,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2.25em 0;
+    color: #777
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1781,7 +1782,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: rgb(180, 180, 180);
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -2813,13 +2814,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			#header > footer .icons {
-				margin: 0;
-			}
+    #header > footer .icons {
+      margin: 0;
+    }
 
-				#header > footer .icons li a {
-					color: #726c70;
-				}
+    #header > footer .icons li a {
+      color: rgb(204, 204, 204);
+    }
 
 		#header > nav {
 			-moz-flex-grow: 1;
@@ -2835,7 +2836,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #041d21;
+					border-top: solid 2px #044142;
 					display: block;
 					padding: 0;
 				}
@@ -3204,6 +3205,7 @@ input, select, textarea {
 
 				header.major h2 + p {
 					font-size: 1.5em;
+          color: black
 				}
 
 		/* Features */
